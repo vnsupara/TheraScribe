@@ -1,5 +1,5 @@
 # TheraScribe
-A fully local, privacy-preserving ABA therapy pipeline using MedASR for transcription and MedGemma for structured clinical insight.
+A fully local, privacy-preserving ABA therapy pipeline using MedASR for transcription.
 
 ## Overview
 ABA technicians often struggle to document sessions while simultaneously delivering instruction. THe pipeline automates that burden by taking recordings of session and transcribing speech using MedASR, finetuning it with CTC decoding, and running it thorugh MedGemma for analysis.
@@ -9,7 +9,7 @@ ABA technicians often struggle to document sessions while simultaneously deliver
 2. Clean audio
 3. Transcribe with MedASR
 4. Clean transcripts
-5. ...
+
 
 ## Installation
 1. Install Pytorch
